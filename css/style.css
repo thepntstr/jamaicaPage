@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-align: center;
 }
 h1{
     color: #f9faf8;
@@ -40,6 +41,7 @@ a {
 }
 .main_information{
    padding: 40px;
+   text-align: left;
 }
 .palms-img{
     height: 300px;
@@ -51,8 +53,33 @@ button{
     border-color:#3882f6;
     font-size: ;
 }
-/*Information*/
-.mini_img{
-    height: 150px;
+/*InformationS*/
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.photo{
+    height: 200px;
+}
+/*Quotes*/
+.quotes_page{
+    background-color: #e5e7eb;
+    font-style: italic;
+    padding: 50px 400px;
+}
+.bobMarley_img{
+    height: 100px;
     width: auto;
+}
+.bob{
+    text-align: right;
+}
+/*Contact*/
+.contact_page{
+    display: flex;
+    background-color:#3882f6;
+    margin: 20px 300px;
+    padding: 10px;
 }
