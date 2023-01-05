@@ -49,18 +49,26 @@ a {
 }
 button{
     background-color:#3882f6;
-    border-radius: 3px;
     border-color:#3882f6;
+    border-radius:5px;
+    height: 30px;
+    width: 100px;
 }
-/*InformationS*/
+/*Information*/
+.information_page{
+    padding: 50px;
+}
 .picture{
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 50px;
+    gap: 52px;
+}
+.inf_page{
+    max-width:200px;
 }
 .photo{
-    height: 200px;
+    height: 150px;
+    width: auto;
 }
 /*Quotes*/
 .quotes_page{
@@ -78,7 +86,20 @@ button{
 /*Contact*/
 .contact_page{
     display: flex;
+    justify-content:space-around;
+    align-items: center;
     background-color:#3882f6;
-    margin: 20px 300px;
+    font-style: italic;
+    color:#1f2937;
+    border-radius: 3px;
+    margin: 40px 300px;
+    
+}
+.button_buy{
+    border-color: #f9faf8;
+}
+/*Footer*/
+.footer{
+    background-color:#1f2937;
     padding: 10px;
 }
